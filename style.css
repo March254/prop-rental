@@ -293,3 +293,86 @@ footer {
   background-color: #009900;
   transform: scale(1.02);
 }
+
+/* Terms Page Styles */
+.terms-content {
+  max-width: 800px;
+  margin: 0 auto 60px;
+}
+
+.terms-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+}
+
+.terms-card h3 {
+  color: #1a1a1a;
+  border-left: 4px solid #ff4757;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.terms-card ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.terms-card ul li {
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.terms-card.highlight {
+  background-color: #fff5f6;
+  border-color: #ffb3ba;
+}
+
+.terms-card.highlight p {
+  color: #d63031;
+  font-weight: 500;
+}
+
+/* ส่วนเพิ่มเติมหน้า Terms และปุ่ม LINE */
+.terms-content { max-width: 800px; margin: 0 auto; padding: 20px; }
+.terms-card { background: #fff; padding: 20px; border-radius: 10px; border: 1px solid #eee; margin-bottom: 15px; }
+.terms-card h3 { color: #ff4757; margin-bottom: 10px; }
+.terms-card.highlight { background-color: #fff5f6; }
+.line-btn { display: inline-block; background: #00b900; color: #fff !important; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: 600; }
+.qr-box { border: 2px solid #00467F; display: inline-block; padding: 10px; margin: 20px 0; }
+
+/* การแสดงผลราคาและมัดจำ */
+.price {
+  color: #ff4757;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.deposit {
+  color: #57606f;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  background: #f1f2f6;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+/* ตกแต่งปุ่ม LINE และหน้าเงื่อนไข */
+.line-btn {
+  display: inline-block;
+  background: #00b900;
+  color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.terms-content { max-width: 800px; margin: 0 auto; padding: 20px; }
+.terms-card { background: #fff; padding: 20px; border-radius: 10px; border: 1px solid #eee; margin-bottom: 15px; }
